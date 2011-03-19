@@ -95,3 +95,8 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'fb',
 )
+
+### django-fb required facebook keys
+FACEBOOK_APP_ID = '119163804825200'
+FACEBOOK_API_KEY = '849b7ccd9114e5f5faae81af27f26023'
+FACEBOOK_APP_SECRET = '60cb36eaf21ddba1b57c55e626da6213'
