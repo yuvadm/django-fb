@@ -7,7 +7,7 @@ from django.template import Context, loader
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    (r'^$', lambda r: HttpResponse(loader.get_template('main.html').render(Context({})))),
+    (r'^$', 'demo.main.views.index'),
     
     (r'^fb/', include('fb.urls')),
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
